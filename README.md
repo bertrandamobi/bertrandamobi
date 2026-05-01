@@ -135,3 +135,9 @@
     <p><strong>“Great code, like great art, inspires and endures.”</strong></p>
   </blockquote>
 </p>
+
+---
+
+- 💼 Open to remote roles
+- 📧 [Email me](mailto:bertrandamobi768@gmail.com) for collaborations or opportunities
+- 🔗 [LinkedIn](https://www.linkedin.com/in//)
