@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio website for Bertrand Amobi, AI Systems Specialist and Software Engineer." />
+  <title>Bertrand Amobi | AI Systems Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Decorative animated background. Update the number of .ball elements to tune density. -->
+  <div class="background-balls" aria-hidden="true">
+    <span class="ball ball-one"></span>
+    <span class="ball ball-two"></span>
+    <span class="ball ball-three"></span>
+    <span class="ball ball-four"></span>
+    <span class="ball ball-five"></span>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Bertrand Amobi home">BA</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="primary-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="hero-content reveal">
+        <p class="eyebrow">AI Systems Specialist • Software Engineer</p>
+        <h1 id="hero-title">Bertrand Amobi</h1>
+        <p class="hero-title">AI Systems Specialist | Software Engineer</p>
+        <p class="hero-copy">Specializing in AI evaluation, model optimization, and building scalable AI-driven systems for real-world impact.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/bertrand-amobi-9873b2405/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+      <aside class="hero-card reveal" aria-label="Professional focus areas">
+        <div class="card-glow"></div>
+        <p class="metric-label">Focus</p>
+        <h2>Evaluation-led AI systems</h2>
+        <p>Bridging reliable model behavior, production engineering, and measurable business outcomes.</p>
+        <div class="hero-stats" aria-label="Experience highlights">
+          <span><strong>7+</strong> years</span>
+          <span><strong>LLM</strong> integration</span>
+          <span><strong>Cloud</strong> scale</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About</p>
+        <h2 id="about-title">Building dependable AI products from model evaluation to deployment.</h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-copy reveal">AI Systems Specialist and Software Engineer with 7+ years of experience in evaluating, improving, and deploying AI and machine learning systems. Skilled in model evaluation, LLM integration, prompt analysis, and data-driven decision-making.</p>
+        <div class="tech-stack reveal" aria-label="Tools and technologies">
+          <span>Python</span>
+          <span>Rust</span>
+          <span>Java</span>
+          <span>Go</span>
+          <span>Node.js</span>
+          <span>TensorFlow</span>
+          <span>PyTorch</span>
+          <span>Scikit-learn</span>
+          <span>Pandas</span>
+          <span>NumPy</span>
+          <span>SageMaker</span>
+          <span>Kubernetes</span>
+          <span>Docker</span>
+          <span>Airflow</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2 id="projects-title">Selected engineering work.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-index">01</div>
+          <h3>Bertrand Exchange</h3>
+          <p>Full-stack AI-powered trading exchange platform with React dashboard, real-time market simulation, and AI-driven insights. Demonstrates AI-driven trading strategies and predictive analytics.</p>
+          <div class="project-actions">
+            <a class="text-link" href="https://github.com/bertrandamobi/bertrand-exchange" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="text-link" href="https://bertrandamobi.github.io/bertrand-exchange/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-index">02</div>
+          <h3>AI-Workflow-Engine</h3>
+          <p>Orchestrates autonomous AI workflows using LangGraph, OpenAI, vector retrieval (RAG), with FastAPI backend and Next.js frontend. Scalable platform for automating AI model workflows.</p>
+          <div class="project-actions">
+            <a class="text-link" href="https://github.com/bertrandamobi/AI-Workflow-Engine" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="text-link" href="https://bertrandamobi.github.io/AI-Workflow-Engine/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Experience</p>
+        <h2 id="experience-title">Engineering reliable AI and software systems.</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div>
+            <p class="role-meta">Nov 2024 - Present</p>
+            <h3>Numer AI | AI Engineer</h3>
+            <ul>
+              <li>Lead AI system evaluation workflows to improve model quality, reliability, and production readiness.</li>
+              <li>Design LLM integration patterns, prompt analysis processes, and feedback loops for measurable model optimization.</li>
+              <li>Partner across engineering and product teams to turn data-driven insights into scalable AI features.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div>
+            <p class="role-meta">Apr 2021 - Nov 2024</p>
+            <h3>Bitget Exchange | Software Engineer</h3>
+            <ul>
+              <li>Built and maintained high-throughput exchange services supporting real-time market data and trading workflows.</li>
+              <li>Improved backend reliability with automation, observability practices, and performance-focused service design.</li>
+              <li>Delivered data-heavy product capabilities by integrating APIs, dashboards, and scalable infrastructure components.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div>
+            <p class="role-meta">May 2019 - Apr 2021</p>
+            <h3>Zedtech | Software Engineer</h3>
+            <ul>
+              <li>Developed production web services and internal tools with clean, maintainable software engineering practices.</li>
+              <li>Implemented data processing and automation features that reduced manual operational overhead.</li>
+              <li>Collaborated with stakeholders to ship responsive, user-centered applications from concept through deployment.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Let’s build AI systems that hold up in the real world.</h2>
+        <p>Open to roles and collaborations focused on AI evaluation, model optimization, and scalable software systems.</p>
+        <div class="contact-links">
+          <a href="mailto:bertrandamobi768@gmail.com">bertrandamobi768@gmail.com</a>
+          <a href="https://www.linkedin.com/in/bertrand-amobi-9873b2405/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/bertrandamobi" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Bertrand Amobi.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
